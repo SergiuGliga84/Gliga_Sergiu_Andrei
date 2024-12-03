@@ -1,0 +1,104 @@
+
+.nume{
+    background-color: beige;
+    color:cadetblue;
+    text-align: center;
+    border: 2px solid darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding: 10px;
+}
+
+.contact{
+    
+    color:darkgreen;
+    font-size: small;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+body{
+    background-color: aliceblue;
+    padding: 60px;
+}
+
+.retea{
+    border: 2px solid darkgoldenrod;
+    background-color:lavenderblush;
+    padding: 30px;
+    margin: auto;
+}
+
+.titlu1{
+    font-size: large;
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.titlu2{
+    font-size:large;
+    text-align: left;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline; 
+}
+
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.t1 {
+    border-collapse: collapse;
+    width: 100%; 
+  }
+  
+  .t1, .t1 th, .t1 td {
+    border: 2px solid #E1CA96 ; 
+  }
+  
+  .t1my-table th, .t1 td {
+    padding: 8px; 
+    text-align: left; 
+  }
+
+  #title {
+    color: brown;
+    cursor: pointer;
+  }
+  
+  .resurse {
+    width: 100%;
+    max-width: 900px; 
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.slide {
+    display: block;
+    text-align: center;
+    width: 30%; 
+    transition: opacity 1s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.active {
+    opacity: 1;
+}
